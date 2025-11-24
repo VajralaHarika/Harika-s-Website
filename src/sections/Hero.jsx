@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Download } from 'lucide-react';
 import { motion } from 'framer-motion';
+import profileImage from '../assets/profile.jpg';
 
 const Hero = () => {
     return (
@@ -32,6 +33,7 @@ const Hero = () => {
                             <a
                                 href="https://drive.google.com/file/d/1JFze-qvopQiwQFAnCZRib7g-sTjGmK6s/view?usp=sharing"
                                 target="_blank"
+                                rel="noreferrer"
                                 className="px-8 py-3 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-700 rounded-full font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-all flex items-center"
                             >
                                 Resume
@@ -50,9 +52,13 @@ const Hero = () => {
                     >
                         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
                         <div className="relative w-full h-full rounded-full bg-white dark:bg-gray-800 p-2 shadow-2xl transition-colors duration-300">
-                            {/* Placeholder for profile image if available, otherwise using a gradient avatar */}
-                            <div className="w-full h-full rounded-full bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-600 flex items-center justify-center overflow-hidden">
-                                <span className="text-9xl font-bold text-gray-300 dark:text-gray-500 select-none">HV</span>
+                            {/* Profile image */}
+                            <div className="w-full h-full rounded-full border-4 border-white dark:border-gray-700 shadow-xl overflow-hidden">
+                                <img
+                                    src={profileImage}
+                                    alt="Harika Vajrala"
+                                    className="w-full h-full object-cover transform scale-125 hover:scale-135 transition-transform duration-500"
+                                />
                             </div>
                         </div>
                     </motion.div>
