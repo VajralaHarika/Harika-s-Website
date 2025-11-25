@@ -27,7 +27,7 @@ const Certifications = () => {
         {
             title: "Software Engineering",
             issuer: "JPMorgan",
-            link: "#"
+            link: "https://drive.google.com/file/d/1WJS3NBsoaZFOkzlPjH3QpkBmHBmVQ3_M/view?usp=sharing"
         },
         {
             title: "Generative AI",
