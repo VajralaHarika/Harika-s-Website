@@ -10,12 +10,7 @@ const About = () => {
                     <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-white">About Me</h2>
                     <div className="space-y-4 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
                         <p>
-                            I am a Full-stack Software Engineer with over 3 years of experience in developing and deploying scalable web applications.
-                            My expertise lies in Python (FastAPI, Flask, Django) and React/TypeScript.
-                        </p>
-                        <p>
-                            I have a strong foundation in building RESTful and GraphQL APIs, implementing secure microservices, and deploying solutions on AWS and Azure.
-                            I am passionate about solving complex backend challenges while delivering intuitive, responsive user interfaces.
+                            A Computer Science graduate student and Software Engineer blending Full Stack Development with Machine Learning expertise. I specialize in building cloud-native backends and distributed AI pipelines using Java, Python, C++, and GCP. Motivated by solving complex system challenges, I am actively looking for full-time opportunities to build scalable software solutions.
                         </p>
                     </div>
                 </div>

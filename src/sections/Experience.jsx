@@ -5,34 +5,35 @@ import { Briefcase } from 'lucide-react';
 const Experience = () => {
     const experiences = [
         {
-            title: "Graduate Research Assistant",
+            title: "Software Engineer",
             company: "Michigan Technological University",
             period: "Aug 2024 - Aug 2025",
             description: [
-                "Led distributed AI research for cross-institutional medical segmentation using Mayo and Tulane datasets.",
-                "Built domain adaptation models with TensorFlow and PyTorch to handle imaging variations across centers.",
-                "Focused on developing scalable software programs for multi-source data engineering within a cloud-based environment.",
-                "Presented research to an external audience at university symposiums and contributed to development activity."
+                "Architected a distributed AI pipeline on Google Cloud Platform (GCP), integrating Elasticsearch and storage services to optimize data retrieval while ensuring regulatory compliance.",
+                "Built high-precision domain adaptation models using TensorFlow,PyTorch, and C++,implementing UDP protocols to ensure seamless, low-latency data communication.",
+                "Engineered RESTful APIs and automated ETL workflows to expose ML models as microservices and normalize multi-source datasets, reducing preprocessing time.",
+                "Designed scalable data modeling solutions and documented system architecture to support consistent software scalability and facilitate cross-team collaboration."
             ]
         },
         {
-            title: "Teaching Assistant",
+            title: "Java Instructor",
             company: "Michigan Technological University",
             period: "Aug 2025 - Present", // Note: Resume says 2025, keeping as is but might be a typo in resume for 2024 or future date
             description: [
-                "Provided technical support and instruction on Java, Linux, and OOP.",
-                "Delivered hands-on troubleshooting during lab sessions, resolving complex issues.",
-                "Conducted code reviews and QA evaluations on assignments."
+                "Mentored 70+ students in Java (OOP), conducting technical code reviews to enforce industry standards and clean code best practices.",
+                "Directed algorithmic problem-solving and QA sessions, guiding students through advanced debugging to optimize code efficiency and memory management."
             ]
         },
         {
-            title: "Software Development Intern",
+            title: "Software Engineer",
             company: "Avishkar Tech Solutions",
-            period: "July 2021 - Dec 2022",
+            period: "July 2021 - July 2022",
             description: [
-                "Built responsive front-end modules using React and TypeScript; integrated with Node.js backend and PostgreSQL.",
-                "Implemented RESTful services, contributing to high-performance software pipeline design.",
-                "Worked with a full-stack team focused on product features with direct feedback from stakeholders."
+                "Full Stack Development: Engineered responsive front-end modules using React, Angular, and TypeScript, integrating them with a scalable Node.js backend and PostgreSQL database.",
+                "API & System Design: Designed and implemented RESTful Web Services to digitize organizational kitting processes optimizing the software pipeline for high-volume inventory management.",
+                "Real-Time Communication: Integrated Pub/Sub messaging protocols to enable real-time notifications, enhancing system responsiveness and team collaboration.",
+                "QA & Testing: Conducted rigorous unit testing and peer code reviews, successfully identifying and troubleshooting critical bugs prior to deployment to ensure 99% system reliability.",
+                "Agile Collaboration: Partnered with cross-functional teams to translate client feedback into technical features, ensuring the final product aligned with business requirements."
             ]
         },
         {
@@ -40,9 +41,9 @@ const Experience = () => {
             company: "AICTE-Eduskills RPA Blue Prism Virtual Internship",
             period: "April 2021 - June 2021",
             description: [
-                "Gained hands-on experience in Robotic Process Automation (RPA) using Blue Prism.",
-                "Designed and developed bots to automate repetitive tasks, improving efficiency and accuracy.",
-                "Implemented automation workflows using algorithms to streamline business processes."
+                "RPA Development: Engineered Robotic Process Automation (RPA) solutions using Blue Prism to automate repetitive workflows, significantly reducing operational errors and processing time.",
+                "Bot Lifecycle Management: Led the end-to-end development of bots—from process analysis and configuration to rigorous testing and deployment—ensuring high reliability and scalability.",
+                "Compliance & Optimization: Focused on process industrialization, ensuring all automation scripts adhered to strict data privacy regulations and configuration management standards."
             ]
         }
     ];

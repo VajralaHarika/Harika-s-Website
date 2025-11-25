@@ -7,22 +7,22 @@ const Certifications = () => {
         {
             title: "AWS Developer Associate",
             issuer: "Amazon Web Services",
-            link: "#"
+            link: "https://drive.google.com/file/d/1YfAujMk5jns1EE5f7GsdAvveOzvJyNAQ/view?usp=sharing"
         },
         {
             title: "J2EE Certification",
             issuer: "Wipro",
-            link: "#"
+            link: ""
         },
         {
             title: "Machine Learning",
             issuer: "Udemy",
-            link: "#"
+            link: "https://drive.google.com/file/d/1m1J0ofaEH2CXeaklRHePtZCEBm_mXWQT/view?usp=sharing"
         },
         {
-            title: "Microsoft Certified Azure Fundamentals",
-            issuer: "Microsoft",
-            link: "#"
+            title: "Multi-Cloud",
+            issuer: "Aviatrix",
+            link: "https://drive.google.com/file/d/18vkjNiQIIe0EMVeL8AIxF_vB5dszKGUt/view?usp=sharing"
         },
         {
             title: "Software Engineering",
