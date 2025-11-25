@@ -12,12 +12,12 @@ const Certifications = () => {
         {
             title: "J2EE Certification",
             issuer: "Wipro",
-            link: ""
+            link: "https://drive.google.com/file/d/1m1J0ofaEH2CXeaklRHePtZCEBm_mXWQT/view?usp=sharing"
         },
         {
             title: "Machine Learning",
             issuer: "Udemy",
-            link: "https://drive.google.com/file/d/1m1J0ofaEH2CXeaklRHePtZCEBm_mXWQT/view?usp=sharing"
+            link: ""
         },
         {
             title: "Multi-Cloud",
