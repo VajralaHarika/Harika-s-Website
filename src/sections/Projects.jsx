@@ -5,9 +5,9 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
     const projects = [
         {
-            title: "Automatic Face Mask Detection",
-            description: "Real-time face mask detection system using Machine Learning, TensorFlow, and OpenCV. Identifies masked vs. unmasked individuals from live video feeds.",
-            tags: ["Python", "TensorFlow", "OpenCV", "HTML/CSS"],
+            title: "University Bot",
+            description: "Developed a RAG-based AI assistant using Python and LangChain to automate student support for admissions and campus navigation. Implemented vector search algorithms to retrieve real-time data from university handbooks, ensuring accurate, hallucination-free responses.",
+            tags: ["Python", "LangChain", "Vector Database", "Prompt Engineering", "RAG", "Data Pipeline", "Git",],
             links: { github: "#", demo: "#" }
         },
         {
