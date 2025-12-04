@@ -31,7 +31,7 @@ const Hero = () => {
                                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} href="mailto:harikavajrala49@gmail.com" />
                             </a>
                             <a
-                                href="https://drive.google.com/file/d/1JFze-qvopQiwQFAnCZRib7g-sTjGmK6s/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1eiBdLBqfZA1qE0syseHXL6YrghP3U_oF/view?usp=sharing"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="px-8 py-3 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-200 border border-gray-300 dark:border-gray-700 rounded-full font-medium hover:bg-gray-50 dark:hover:bg-gray-700 transition-all flex items-center"
