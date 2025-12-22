@@ -26,7 +26,7 @@ const About = () => {
                             <h4 className="text-xl font-semibold text-gray-900 dark:text-white">Master’s in Computer Science</h4>
                             <p className="text-blue-600 dark:text-blue-400 font-medium">Michigan Technological University</p>
                             <p className="text-gray-500 dark:text-gray-400 text-sm mb-2">Houghton, Michigan, USA</p>
-                            <p className="text-gray-700 dark:text-gray-300 font-medium">CGPA: 3.88/4</p>
+                            <p className="text-gray-700 dark:text-gray-300 font-medium">CGPA: 3.90/4</p>
                         </div>
 
                         <div className="relative pl-8 border-l-2 border-blue-200 dark:border-blue-900">

@@ -16,7 +16,7 @@ const Experience = () => {
             ]
         },
         {
-            title: "Java Instructor",
+            title: "Lab Instructor",
             company: "Michigan Technological University",
             period: "Aug 2025 - Present", // Note: Resume says 2025, keeping as is but might be a typo in resume for 2024 or future date
             description: [
