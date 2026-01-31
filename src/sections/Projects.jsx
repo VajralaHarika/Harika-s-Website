@@ -13,13 +13,13 @@ const Projects = () => {
         {
             title: "Automatic Face Mask Detection",
             description: "Real-time face mask detection system using Machine Learning, TensorFlow, and OpenCV. Identifies masked vs. unmasked individuals from live video feeds.",
-            tags: ["Python", "TensorFlow", "OpenCV", "HTML/CSS"],
+            tags: ["Python", "TensorFlow", "OpenCV", "Image Processing", "Computer Vision", "Data Augmentation"],
             links: { github: "#", demo: "#" }
         },
         {
             title: "Odyssey - Full-Stack Travel Booking Platform",
             description: "Full-stack travel website for booking tickets and hotels. Features trip planning, real-time availability, and pricing management.",
-            tags: ["HTML/CSS", "JavaScript", "SQL", "REST APIs"],
+            tags: ["Typescript", "AWS", " JWT", "Docker", "PostgreSQL", "Git", "Rest APIS"],
             links: { github: "#", demo: "#" }
         },
         {
