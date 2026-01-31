@@ -24,7 +24,7 @@ const Projects = () => {
         },
         {
             title: "MicroMart - An Ecommerce Website",
-            description: "Full-stack travel website for booking tickets and hotels. Features trip planning, real-time availability, and pricing management.",
+            description: "An ecommerce website for booking products.Developed a full-stack distributed system using React, Spring Boot, and RabbitMQ, enforcing strict data isolation via the Database-per-Service patternn",
             tags: ["Java", "Spring Boot", "Docker", "RabbitMQ", "Git", "SQL", "Rest APIS", "CI/CD", "Microsoft Azure"],
             links: { github: "#", demo: "#" }
         },
