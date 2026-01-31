@@ -5,7 +5,7 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
     const projects = [
         {
-            title: "University Bot",
+            title: "AlmaMate - University ChatBot",
             description: "Developed a RAG-based AI assistant using Python and LangChain to automate student support for admissions and campus navigation. Implemented vector search algorithms to retrieve real-time data from university handbooks, ensuring accurate, hallucination-free responses.",
             tags: ["Python", "LangChain", "Vector Database", "Prompt Engineering", "RAG", "Data Pipeline", "Git",],
             links: { github: "#", demo: "#" }
@@ -17,11 +17,18 @@ const Projects = () => {
             links: { github: "#", demo: "#" }
         },
         {
-            title: "Travel Tourism and Hospitality",
+            title: "Odyssey - Full-Stack Travel Booking Platform",
             description: "Full-stack travel website for booking tickets and hotels. Features trip planning, real-time availability, and pricing management.",
             tags: ["HTML/CSS", "JavaScript", "SQL", "REST APIs"],
             links: { github: "#", demo: "#" }
         },
+        {
+            title: "MicroMart - An Ecommerce Website",
+            description: "Full-stack travel website for booking tickets and hotels. Features trip planning, real-time availability, and pricing management.",
+            tags: ["Java", "Spring Boot", "Docker", "RabbitMQ", "Git", "SQL", "Rest APIS", "CI/CD", "Microsoft Azure"],
+            links: { github: "#", demo: "#" }
+        },
+
         {
             title: "Escape Room VR",
             description: "Immersive VR escape room for PCVR using Unity Engine. Features complex puzzles, 3D maze, and optimized game performance.",
