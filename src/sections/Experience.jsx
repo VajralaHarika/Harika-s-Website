@@ -5,6 +5,17 @@ import { Briefcase } from 'lucide-react';
 const Experience = () => {
     const experiences = [
         {
+            title: "AI Automation Extern",
+            company: "Outamation (via Extern), Michigan, USA",
+            period: "Feb 2026 - PRESENT",
+            description: [
+                "AI Architecture Research: Evaluated the application of Large Language Models (LLMs) and Natural Language Processing (NLP) for extracting high-accuracy data from unstructured legal documents.",
+                "Computer Vision & OCR: Explored the integration of Optical Character Recognition (OCR) to automate the identification of missing documentation and improve data validation precision.",
+                "Workflow Transformation: Conducted a deep-dive analysis of manual mortgage document processing to identify high-friction bottlenecks suitable for AI intervention.",
+                "Strategic Analysis: Documented the real-world obstacles AI models face in regulated industries, providing a roadmap for testing and refining automation techniques in the next phase of the program."
+            ]
+        },
+        {
             title: "Software Engineer",
             company: "Michigan Technological University",
             period: "Aug 2024 - Aug 2025",
@@ -18,7 +29,7 @@ const Experience = () => {
         {
             title: "Lab Instructor",
             company: "Michigan Technological University",
-            period: "Aug 2025 - Present", // Note: Resume says 2025, keeping as is but might be a typo in resume for 2024 or future date
+            period: "Aug 2025 - Dec 2025", // Note: Resume says 2025, keeping as is but might be a typo in resume for 2024 or future date
             description: [
                 "Mentored 70+ students in Java (OOP), conducting technical code reviews to enforce industry standards and clean code best practices.",
                 "Directed algorithmic problem-solving and QA sessions, guiding students through advanced debugging to optimize code efficiency and memory management."
